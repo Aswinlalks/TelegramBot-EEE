@@ -18,31 +18,32 @@ def get_timetable_for_day():
 
     # Get the timetable for the current day of the week
     current_timetable = timetable.get(current_day, "No timetable available for today")
-
     return current_timetable
 
 
 def sample_responses(input_text):
     user_message = str(input_text).lower()
 
-    if user_message in ("/hello","/hi","/sup"):
+    if user_message in ("hello","hi","sup"):
         return "hey! helloooo..."
     
-    if user_message in ("/sura"):
+    if user_message in ("sura"):
         return "panna po*ay@@di m@ne"
     
-    if user_message in ("/who are you?",/"who are you","/whois"):
+    if user_message in ("who are you?","who are you?","whois"):
         return "ഇത് ഞാനാടാ നിങ്ങട HOD !"
     
-    if user_message in ("/time?","/time"):
+    if user_message in ("time?","time"):
         now = datetime.now()
         date_time = now.strftime("%d-%m-%y\n\n%H:%M:%S\n\n%A")
 
         return str(date_time)
     
-    if user_message in ("/timetable","/time table"):
+    if user_message in ("/timetable@rizzrizzrizzbot","time table","timetable"):
         return get_timetable_for_day()
     
-    return "i dont understand you,നീ ഏതാടാ നായേ\n\ntry:\nwhois\ntime\ntimetable\nsura\n/reminders\n/addreminder"
+    return "i dont understand you,\nനീ ഏതാടാ നായേ\n\ntry:\nwhois\ntime\nsura\n/timetable\n/reminders\n/addreminder\n/notes\n/uptime"
+
+
 
     
