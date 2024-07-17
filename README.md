@@ -1,4 +1,5 @@
 # Assignment Fetcher Telegram Bot
+![](https://aswinlalks.github.io/itsMeAswinLal/images/Project_2.png)
 
 This Telegram bot fetches assignment details from the ETLab website and displays active assignments.
 
