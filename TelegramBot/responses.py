@@ -31,7 +31,7 @@ def sample_responses(input_text):
         return "panna po*ay@@di m@ne"
     
     if user_message in ("who are you?","who are you?","whois"):
-        return "ഇത് ഞാനാടാ നിങ്ങട HOD !"
+        return "i am batman"
     
     if user_message in ("time?","time"):
         now = datetime.now()
@@ -42,7 +42,7 @@ def sample_responses(input_text):
     if user_message in ("/timetable@rizzrizzrizzbot","time table","/timetable"):
         return get_timetable_for_day()
     
-    return "i dont understand you,\nനീ ഏതാടാ നായേ\n\ntry:\nwhois\ntime\nsura\n/timetable\n/assignments\n/notes\n/uptime"
+    return "i dont understand you,\n\ntry:\nwhois\ntime\nsura\n/timetable\n/assignments\n/notes\n/uptime"
 
 
 
