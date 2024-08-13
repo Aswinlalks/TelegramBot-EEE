@@ -7,11 +7,11 @@ def get_timetable_for_day():
 
     # Define the timetable for each day of the week
     timetable = {
-        0: "Monday timetable:\nDigital Electronics - 9:00 AM\nDCMT - 10:00 AM\nPE - 11:05 AM\nDCMT - 1:00 PM\nMATHS - 02:00 PM\nDigital Electronics - 03:05 PM",
-        1: "Tuesday timetable:\nEMT - 9:00 AM\nDE - 10:00 AM\nEMT - 11:05 AM\nLAB - 1:00-4:00 PM",
-        2: "Wednesday timetable:\nEMT - 9:00 AM\nMATHS - 10:00 AM\nDCMT - 11:05 AM\nCOI - 1:00 PM\nMentoring Hour - 02:00 PM\nPE - 02:50 PM\nDH - 03:40 PM",
-        3: "Thursday timetable:\nDigital Electronics - 9:00 AM\nCOI - 10:00 AM\nM/H/R - 11:05 AM\nMATHS - 1:00 PM\nEMT - 02:00 PM\nDCMT - 03:05 PM",
-        4: "Friday timetable:\nMATHS - 9:00 AM\nLAB - 10:00 AM-12:30 PM\nM/H/R - 02:00-04:00 PM",
+        0: "Monday timetable:\nSIM - 9:00 AM\nPS-1 - 10:00 AM\nIE & FT - 11:05 AM\nLAB - 1:00-4:00 PM",
+        1: "Tuesday timetable:\nMPMC - 9:00 AM\nS & S - 10:00 AM\nPS-1 - 11:05 AM\nSIM - 1:00 PM\nDM - 02:10 PM\nS & S - 03:05 PM",
+        2: "Wednesday timetable:\nLAB - 9:00 AM-12 PM\nIE & FT - 1:00 PM\nMentoring Hour - 02:00 PM\nDM - 02:50 PM\nDH - 03:40 PM",
+        3: "Thursday timetable:\nPS-1 - 9:00 AM\nMPMC - 10:00 AM\nSIM - 11:05 AM\nIE & FT - 1:00 PM\nS & S - 02:00 PM\nMPMC - 03:05 PM",
+        4: "Friday timetable:\nS & S - 9:00 AM\nMPMC - 9:50 AM\nSIM - 10:50 AM\nPS-1 - 11:40 AM\nM/H/R - 02:00 - 4:00 PM",
         5: "Saturday timetable:\nNo classes scheduled",
         6: "Sunday timetable:\nNo classes scheduled"
     }
